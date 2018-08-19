@@ -11,9 +11,9 @@
     <script src="../../js/bootstrap.js"></script>
     <script src="../../js/modernizr-2.8.3.js"></script>
 </head>
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top mynavbar">
     <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header" style="margin-right: 130px;">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -23,9 +23,9 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li class="navbar-link"><a href="#" style="color: white;">My Health Plan</a></li>
+                <li class="navbar-link"><a href="#" style="color: white;">Find Entertainment</a></li>
+                <li class="navbar-link"><a href="login" style="color: white;">Account</a></li>
             </ul>
         </div>
     </div>
