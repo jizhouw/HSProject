@@ -5,7 +5,12 @@
 }
 
 #movePage {
-    margin-top: 10%;
-    width: 800px;
-    height: 500px;
+    margin-top: 5%;
+    height: 70%;
+}
+
+.indexFollowPics{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
 }

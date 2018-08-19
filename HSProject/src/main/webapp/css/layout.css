@@ -1,5 +1,5 @@
 .navbar{
-    height: 100px;
+    height: 80px;
     border-radius: 5px;
     background: linear-gradient(to bottom, #122b40, #2b669a);
     box-shadow: 10px 10px #888888;
@@ -7,8 +7,8 @@
 
 .navbar-brand{
     background-image: url("../img/team_logo.png");
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-top: 15%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,22 +17,27 @@
 }
 
 .navbar-link{
-    text-align: center;
-    font-size: 19px;
-    font-family: "Book Antiqua";
-    font-weight: bold;
-    border-radius: 5px;
-    background: linear-gradient(to bottom, blue, #337ab7);
-    margin-right: 50px;
-    width: 200px;
-    padding-bottom: 0;
+    font-style: italic;
+    font-size: 27px;
 }
 
 .navbar-link:hover{
-    width: 205px;
-    height: 50px;
     background: linear-gradient(to bottom, black, #122b40);
 }
 .collapse{
-    margin-top: 4%;
+    margin-top: 1%;
+}
+
+#footer{
+    width: 100%;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+#titleArea{
+    margin-left: 25%;
+    width: 50%;
+    height: 18%;
 }
