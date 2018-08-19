@@ -18,10 +18,10 @@
     <script src="../../js/modernizr-2.8.3.js"></script>
     <link rel="stylesheet" href="../../css/login.css">
 </head>
-<div class="container loginContainer">
+<div class="container loginContainer" style="margin-right: 15%;">
 <div class="row">
     <div class="col-md-7"></div>
-    <div class="col-md-5 alert alert-success">
+    <div class="col-md-5 alert alert-info">
         <figure>
             <img class="img-responsive img-circle" src="img/login-head.jpg" alt="login-head"/>
         </figure>
@@ -40,7 +40,7 @@
             </div>
         </form>
         <button class="btn btn-info form-control" type="submit"><i class="glyphicon glyphicon-log-in"></i> Log In</button>
-        <a style="float:left">Forget Password ?</a><a style="float:right; cursor: pointer" onclick="SignUp">Sign Up</a>
+        <a style="float:left">Forget Password ?</a><a style="float:right; cursor: pointer" onclick="SignUp">Has No Account?Sign Up</a>
     </div>
 </div>
 </div>
